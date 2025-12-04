@@ -133,6 +133,7 @@ if [ -d "$HOME/ansible-easy-vpn" ]; then
   git pull
   popd
 else
+# ++++ i changed here the line "git clone https://github.com/notthebee/ansible-easy-vpn $HOME/ansible-easy-vpn"
   git clone https://github.com/notthebee/ansible-easy-vpn $HOME/ansible-easy-vpn
 fi
 
